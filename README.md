@@ -9,10 +9,10 @@ Setting your Git username for every repository on your computer <br>
 Open Terminal.<br>
 
 Set a Git username:  <br>
-`$ git config --global user.name "Moni Lisa"`<br>
+`git config --global user.name "YOUR USERNAME"`<br>
 
 Confirm that you have set the Git username correctly:  <br>
-`$ git config --global user.name`<br>
+`git config --global user.name`<br>
 
 
 Setting your email address for every repository on your computer <br>
@@ -20,22 +20,22 @@ Setting your email address for every repository on your computer <br>
 Open Terminal.<br>
 
 Set an email address in Git  <br>
-`$ git config --global user.email "YOUR_EMAIL" `<br>
+`git config --global user.email "YOUR_EMAIL" `<br>
 
 Confirm that you have set the email address correctly in Git:  <br>
-`$ git config --global user.email `  <br>
+`git config --global user.email `  <br>
 ## Basic Commands  <br>
 
 Open terminal  <br>
 
 Check your version  <br>
-`$git --version  `<br>
+`git --version  `<br>
 List all settings<br>
-`$git config --list`<br>
+`git config --list`<br>
 Uset from Configuration<br>
-`$git config --global --unset`<br>
+`git config --global --unset`<br>
 Set Default Values<br>
-`$git config --global init.defaultBranch main`<br>
+`git config --global init.defaultBranch main`<br>
 
 ##Start a project<br>
 `mkdir myproject`<br>
@@ -45,12 +45,10 @@ Set Default Values<br>
 `ls -a`<br>
 `vi index.html`<br>
 Add code from index.html in this repository  <br>
-Search how you can save and exit vi  <br>
+Search the web how you can save and exit vi  <br>
 `ls`<br>
 `git status` <br>
 `git add index.html`<br>
-`git status`<br>
-`git restore --staged index.html`<br>
 `git status`<br>
 `git commit -m "I commit, Do you Commit?"`<br>
 `git status`<br>
