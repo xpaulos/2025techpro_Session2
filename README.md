@@ -32,8 +32,6 @@ Check your version  <br>
 `git --version  `<br>
 List all settings<br>
 `git config --list`<br>
-Uset from Configuration<br>
-`git config --global --unset`<br>
 Set Default Values<br>
 `git config --global init.defaultBranch main`<br>
 
