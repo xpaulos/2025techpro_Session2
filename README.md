@@ -44,7 +44,7 @@ Set Default Values<br>
 `git init `<br>
 `ls -a`<br>
 `vi index.html`<br>
-Add code from index.html in this repository  <br>
+Copy paste the code from index.html in this repository to the newly created index.html  <br>
 Search the web how you can save and exit vi  <br>
 `ls`<br>
 `git status` <br>
